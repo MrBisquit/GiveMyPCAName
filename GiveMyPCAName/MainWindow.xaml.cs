@@ -219,7 +219,7 @@ namespace GiveMyPCAName
 
         private void Suggest_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start(new ProcessStartInfo("https://github.com/MrBisquit/GiveMyPCAName/") { UseShellExecute = true });
+            Process.Start(new ProcessStartInfo("https://github.com/MrBisquit/GiveMyPCAName/blob/master/SUGGEST-NAMES.md") { UseShellExecute = true });
         }
     }
 }
